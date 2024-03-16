@@ -109,4 +109,4 @@ async def on_message(message):
             await message.channel.send(video)
 
 client.run(
-    'MTIxNjUwNjgyMzQzNjQwMjY4OA.G2zl3w.COeKAEJxryo_njerEL2i9TB_qyeYw9bQiL_hXU')
+    'TU_TOKEN')
