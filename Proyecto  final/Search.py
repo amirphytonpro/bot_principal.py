@@ -2,7 +2,7 @@ import requests
 
 
 def buscar_imagenes(query):
-    api_key = 'AIzaSyDr63rgfZ9WUjsRimNI47AJ9gMxu-0hLbw'
+    api_key = 'tu_api_key'
     search_engine_id = '45943969396f04539'
     url = f'https://www.googleapis.com/customsearch/v1?key={
         api_key}&cx={search_engine_id}&q={query}&searchType=image'
