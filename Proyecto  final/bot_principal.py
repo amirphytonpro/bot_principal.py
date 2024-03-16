@@ -19,7 +19,7 @@ COMANDOS_IMAGENES = {
     'oso': 'oso.jpeg',
     'sequia': 'sequia.jpeg'
 }
-API_KEY = '432c8e1492189deb0983a7cc3c0774b3'
+API_KEY = 'TU_API_KEY'
 
 
 @client.event
