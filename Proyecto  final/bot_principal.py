@@ -30,6 +30,12 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
+    if message.content.startswith('!hello'):
+        await message.channel.send("Hi!")
+    elif message.content.startswith('!bye'):
+        await message.channel.send("\\U0001f642")
+    else:
+        await message.channel.send(message.content)
     if 'por favor' in message.content.lower():
         await message.channel.send("¡Por supuesto! Aquí tienes la información que necesitas. ¿Hay algo más en lo que pueda ayudar?")
     elif 'gracias' in message.content.lower():
